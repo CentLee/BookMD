@@ -1,10 +1,10 @@
 # CollectionView
 
-- CollectionViewLayout.invalidateLayout vs CollectionView.reloadData()
+# CollectionViewLayout.invalidateLayout vs CollectionView.reloadData()
   - Layout만 업데이트 vs Data 변경 및 Layout 업데이트
   - invalidateLayout은 레이아웃 객체에게 아이템이 지워지거나, 추가 되거나, 이동할때 필연적으로 자체 모든 레이아웃 속성을 재연산 하도록 합니다.
   
-- UICollectionViewCompositionalLayout ( iOS 13+ )
+# UICollectionViewCompositionalLayout ( iOS 13+ )
   - FlexLayout와 유사하게 레이아웃을 설정할 수 있을 것 같다.
   - CollectionViewLayout을 유연하게 커스터마이징 할 수 있게해주는 클래스
     
