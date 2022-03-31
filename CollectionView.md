@@ -5,8 +5,8 @@
 
   
 - UICollectionViewCompositionalLayout ( iOS 13+ )
-  : FlexLayout와 유사하게 레이아웃을 설정할 수 있을 것 같다.
-  : CollectionViewLayout을 유연하게 커스터마이징 할 수 있게해주는 클래스
+  - FlexLayout와 유사하게 레이아웃을 설정할 수 있을 것 같다.
+  - CollectionViewLayout을 유연하게 커스터마이징 할 수 있게해주는 클래스
     
   필수 구현 Object 
     - NSCollectionLayoutSize return NSCollectionLayoutSize(widthDimension: .absolute(100), heightDimension: .fractionalHeight(0.2))
@@ -18,6 +18,7 @@
     - NSCollectionLayoutGroup 아이템들을 담고있는 그룹
     
     - NSCollectionLayoutSection 그룹을 담고있는 섹션
+    
       section.orthogonalScrollingBehavior 스크롤 형식을 설정할 프로퍼티
       
       #
