@@ -9,6 +9,7 @@
   - CollectionViewLayout을 유연하게 커스터마이징 할 수 있게해주는 클래스
     
   필수 구현 Object 
+  
     - NSCollectionLayoutSize return NSCollectionLayoutSize(widthDimension: .absolute(100), heightDimension: .fractionalHeight(0.2))
       absolute = 고정 크기
       fractional = 속한 그룹의 크기에 대한 비율
@@ -21,7 +22,7 @@
     
       section.orthogonalScrollingBehavior 스크롤 형식을 설정할 프로퍼티
       
-      #
+      
         continuous - 일반적 이동가능
 
         continuousGroupLeadingBoundary - 무조건 전페이지의 leading으로이동
@@ -34,13 +35,14 @@
 
         paging - 컬렉션뷰기준 페이징
         
-      #  
+      
       
   선택적 구현 Object
+  
     - NSCollectionLayoutSupplementaryItem
-      : NSCollectionLayoutSupplementaryItem(layoutSize: badgeSize, elementKind: "badge", containerAnchor: badgeAnchor)
-        뱃지나 시각적 프레임 등으로 아이템에 표현될 객체
-        UICollectionReusableView 클래스 생성하고 CollectionView에 등록 후 사용한다.
+      NSCollectionLayoutSupplementaryItem(layoutSize: badgeSize, elementKind: "badge", containerAnchor: badgeAnchor)
+      뱃지나 시각적 프레임 등으로 아이템에 표현될 객체
+      UICollectionReusableView 클래스 생성하고 CollectionView에 등록 후 사용한다.
         
      
     - NSCollectionLayoutBoundarySupplementaryItem
