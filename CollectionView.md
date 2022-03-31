@@ -7,7 +7,8 @@
 - UICollectionViewCompositionalLayout ( iOS 13+ )
   : FlexLayout와 유사하게 레이아웃을 설정할 수 있을 것 같다.
   : CollectionViewLayout을 유연하게 커스터마이징 할 수 있게해주는 클래스
-  : 필수 구현 Object 
+    
+  필수 구현 Object 
     - NSCollectionLayoutSize return NSCollectionLayoutSize(widthDimension: .absolute(100), heightDimension: .fractionalHeight(0.2))
       absolute = 고정 크기
       fractional = 속한 그룹의 크기에 대한 비율
@@ -18,7 +19,9 @@
     
     - NSCollectionLayoutSection 그룹을 담고있는 섹션
       section.orthogonalScrollingBehavior 스크롤 형식을 설정할 프로퍼티
-      / continuous - 일반적 이동가능
+      
+      #
+        continuous - 일반적 이동가능
 
         continuousGroupLeadingBoundary - 무조건 전페이지의 leading으로이동
 
@@ -29,9 +32,10 @@
         none - 스크롤 x
 
         paging - 컬렉션뷰기준 페이징
-      /
+        
+      #  
       
-  : 선택적 구현 Object
+  선택적 구현 Object
     - NSCollectionLayoutSupplementaryItem
       : NSCollectionLayoutSupplementaryItem(layoutSize: badgeSize, elementKind: "badge", containerAnchor: badgeAnchor)
         뱃지나 시각적 프레임 등으로 아이템에 표현될 객체
