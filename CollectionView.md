@@ -1,6 +1,6 @@
 # CollectionView
 
-# CollectionViewLayout.invalidateLayout vs CollectionView.reloadData()
+# CollectionViewLayout.invalidateLayout vs .reloadData()
   - Layout만 업데이트 vs Data 변경 및 Layout 업데이트
   - invalidateLayout은 레이아웃 객체에게 아이템이 지워지거나, 추가 되거나, 이동할때 필연적으로 자체 모든 레이아웃 속성을 재연산 하도록 합니다.
   
