@@ -11,4 +11,9 @@
   - 좌표나 색상 계산, 이미지 디코딩, 뷰의 일정 부분을 그리는 부분 등
   
 * Use Placeholders until your data is loaded
-  - 백그라운드에서 무거운 작업들을 수행할 때, 데이터가 로드될 때까진 스켈레톤 뷰 형태를 구현해서 플레이스홀더들을 배치해놓고 데이터가 로드 되고 난 후 데이터만 변경하는 것으로 업데이트한다.
+  - 백그라운드에서 무거운 작업들을 수행할 때, 데이터가 로드될 때까진 SkeletonView와 같은 플레이스홀더들을 배치해놓고 데이터가 로드 되고 난 후 데이터만 변경하는 것으로 업데이트한다.
+
+* Reduce Dependencies on External Frameworks and Dynamic Libraries
+  - ㅇㅇ
+
+* Reduce Xcode Build Time
