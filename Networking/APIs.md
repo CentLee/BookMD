@@ -33,7 +33,7 @@
 # Use enum associated values to pass in path parameters
   ```swift
   public protocol RawRepresentable {
-    assoiatedType RawValue
+    associatedType RawValue
     init?(rawValue: Self.RawValue) { nil }
     var rawValue: Self.RawValue { get }
   }
