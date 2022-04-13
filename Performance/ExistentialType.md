@@ -5,6 +5,7 @@
  
   프로토콜 구현 예시
   
+  ```swift
     Protocol Pet {
       func feed()
     }
@@ -39,6 +40,6 @@
     
     Swift 6 Impl
     let dog: any Pet = Dog()
-    
+    ```
 # 참고 
   - ZeddiOS님 블로그
