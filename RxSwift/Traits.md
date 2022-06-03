@@ -1,4 +1,4 @@
-#RxSwift Traits
+# RxSwift Traits
 
 # Single
 
@@ -25,7 +25,7 @@
 - Single, Maybe와 다르게 Observable을 Completable로 바꿀 수 없습니다.
 
 ----------------- 
-#RxCocoa Traits
+# RxCocoa Traits
 
 # Driver vs Signal
 
