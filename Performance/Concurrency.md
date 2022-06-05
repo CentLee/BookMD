@@ -20,3 +20,15 @@
 ![thread](https://user-images.githubusercontent.com/35019052/172067057-8c711494-33e3-4cbf-b0fc-100d0d0a8d7b.png)
 
 - DispatchQueue Main과 Background를 통해서 멀티스레드 작업을 구현할 수 있다.
+
+
+
+# GCD
+
+* background — we can use this when a task is not time-sensitive or when the user can do some other interaction while this is happening. Like pre-fetching some images, loading, or processing some data in this background. This work takes significant time, seconds, minutes, and hours.
+
+* utility — long-running task. Some process what the user can see. For example, downloading some maps with indicators. When a task takes a couple of seconds and eventually a couple of minutes.
+ 
+* userInitiated — when the user starts some task from UI and waits for the result to continue interacting with the app. This task takes a couple of seconds or an instant.
+ 
+* userInteractive — when a user needs some task to be finished immediately to be able to proceed to the next interaction with the app. Instant task.
