@@ -1,5 +1,8 @@
 # RxSwift Traits
 
+- UI처리에 특화된 Observable (MainThread에서 실행, Error이벤트가 없음)
+- Traits를 구독하는 모든 구독자는 동일한 시퀀스를 공유 (share연산자가 내부적으로 사용된 상태)
+
 # Single
 
 - 1개의 element를 포함하는 Observable Sequence
