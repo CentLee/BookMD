@@ -42,6 +42,7 @@
    - 여러 개의 요소를 한 번에 받는 Observable를 다른 Observable가 최신 값을 통해 방아쇠처럼 다른 Observable의 시퀀스가 방출되게끔 해주는 연산자이다.
 
 3. amb
-   - 두 Observable 중 어떤 Observable를 받을 
+   - 두 Observable 중 어떤 Observable를 받을 것인지 택할 수 있다.
 
 4. switchLatest 
+   - flatMapLatest와 동일하게 원하는 값의 최종 값을 받게 된다.
