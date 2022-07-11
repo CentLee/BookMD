@@ -47,5 +47,5 @@ DispatchQueue.global().async {
 위 방식을 해결하려면
 run(until:) 을 사용하면 어떤 지정된 날짜까지 부착된 입력소스는 모두 동작하도록 사용할 수 있는 함수이다.
 ```
-
+- 특별히 Main RunLoop는 currentMode가 소스나 타이머가 비어있는지 검사할때 안 비어 있는 식으로 처리합니다.
 
