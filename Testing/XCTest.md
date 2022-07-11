@@ -23,3 +23,10 @@ func testMock() throws {
 
 ### XCAssert* 
 - given when 이후 then 때 확인할 수 있는 메소드들로 다양한 메소드가 존재하고, 테스트를 한 결과값이 예상한 결과값과 일치하는 지 여부를 다양한 메소드로 테스팅할 수 있다.
+
+
+## Code Coverage
+- Code Coverage는 테스트의 가치를 측정하는 도구라고 할 수 있다. 이를 통해서 테스터가 의도한 대로 테스트가 잘 되었는지 판단할 수 있는 자료 중 하나다.
+- 따라서 해당하는 프로덕트의 스키마에서 코드 커버리지를 세팅하면 유닛 테스트에 대한 코드 커버리지를 측정할 수 있다.
+- Product - Scheme - Edit Scheme - Option - Code Coverage Check
+
