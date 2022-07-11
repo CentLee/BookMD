@@ -17,3 +17,9 @@ func testMock() throws {
   ...
 }
 ```
+
+
+## XCTest Feature
+
+### XCAssert* 
+- given when 이후 then 때 확인할 수 있는 메소드들로 다양한 메소드가 존재하고, 테스트를 한 결과값이 예상한 결과값과 일치하는 지 여부를 다양한 메소드로 테스팅할 수 있다.
