@@ -23,10 +23,13 @@
 
 - 어느 element도 방출하지 않고 에러나 완료만 가능한 Observable의 변형
 
-- 어떠한 operation의 성공적인 완료여부만 알고싶을 경우 사용할 수 있습니다.
+- 어떠한 operation의 성공적인 완료여부만 알고싶을 경우 사용할 수 있습니다. (파일 쓰기)
 
 - Single, Maybe와 다르게 Observable을 Completable로 바꿀 수 없습니다.
 
+#Maybe 
+- Single + Completable
+- 프로세스가 성공 및 실패 여부와 더불어 출력된 값도 내뱉을 수 있을 때 사용한다.
 ----------------- 
 # RxCocoa Traits
 
