@@ -27,7 +27,7 @@
 
 - Single, Maybe와 다르게 Observable을 Completable로 바꿀 수 없습니다.
 
-#Maybe 
+# Maybe 
 - Single + Completable
 - 프로세스가 성공 및 실패 여부와 더불어 출력된 값도 내뱉을 수 있을 때 사용한다.
 ----------------- 
