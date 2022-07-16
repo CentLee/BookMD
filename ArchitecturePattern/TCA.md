@@ -20,5 +20,6 @@
 
  - Store: 실제로 기능을 구동하는 런타임으로 스토어가 리듀서와 이펙트를 실행하도록 사용자의 액션을 스토어에 보내고 스토어에서 상태
  
- ## TCA Flow
+## TCA Flow
  
+![TCA Flow](https://user-images.githubusercontent.com/35019052/179349182-e0e28804-ae6f-4797-9865-876ac2b0c930.png)
