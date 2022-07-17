@@ -9,7 +9,7 @@
 - UIImage = Data 타입인데, 이 데이터를 디코딩해서 실제 이미지로 만드는 과정에서 많은 비용이 든다.
 
 ## UIGraphicsBeginImageContext 
-- four bytes pixel
+- four bytes per pixel
 - Creates a bitmap-based graphics context and makes it the current context.
 - 현 컨텍스트를 비트맵을 베이스로 하는 그래픽 컨텍스트로 만드는 함수
 - SRGB 형식과 스택을 이용한다. 
@@ -17,7 +17,7 @@
 - 동작은 현 함수로 컨텍스트를 생성하고 그에 대한 처리를 하고 UIGraphicsGetImageFromCurrentImageContext로 이미지 가져오고 끝내면서 스택에 있던 컨텍스트를 제거하는 것까지의 과정을 거친다.
 
 ## UIGraphicsImageRenderer
-- eight bytes pixel
+- eight bytes per pixel
 - UIGraphicsRenderer의 하위 클래스이며, 상위 추상 클래스이기 때문에 직접적 사용대신 Image or PDF Renderer을 사용한다.
 - 위와 다른 것은 코어 그래픽 이미지를 지원하기 위해 사용하는 클래스이다.
 - 색상 깊이 및 이미지 스케일과 같은 구성을 처리하거나 Core Graphics 컨텍스트를 관리하지 않고도 그리기 작업을 수행할 수 있게 해준다.
