@@ -15,7 +15,7 @@ struct UserDefault<T> {
   }
 }
 
-class UserManager {
+final class UserManager {
     @UserDefault(key: "isLoggedIn", defaultValue: false)
     static var isLoggedIn: Bool
     
@@ -25,3 +25,4 @@ class UserManager {
 
 ```
 - 원래라면 get/set을 각각 프로퍼티에 로직 작성을 해줘야했지만 결국 반복되는 로직이므로 이러한 방식으로 활용할 수 있다.
+- 사용사례 추가 예정
