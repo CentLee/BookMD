@@ -25,3 +25,6 @@ public interface HttpMessageConverter<T> {
 #### HTTP 메시지 컨버터는 HTTP 요청, HTTP 응답 둘 다 사용된다.
 #### canRead() , canWrite() : 메시지 컨버터가 해당 클래스, 미디어타입을 지원하는지 체크 
 #### read() , write() : 메시지 컨버터를 통해서 메시지를 읽고 쓰는 기능
+
+
+#### Http Message Converter 위치 
