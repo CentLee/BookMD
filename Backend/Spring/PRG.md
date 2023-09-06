@@ -9,7 +9,8 @@
 ```java
     return "redirect:/basic/items" + item.getId(); 
 
-    RedirectAttributes redirectAttributes 를 사용하여 
+    RedirectAttributes를 사용하여 
     redirectAttributes.addAttribute("itemId", savedItem.getId()); 
+    redirectAttributes.addAttribute("status", true); << 지정한 어트리뷰트 제외 쿼리파라미터로 처리해준다. 
     return "redirect:/basic/items/{itemId}"; 이런 방식으로 사용한다. 
 ```
