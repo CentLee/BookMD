@@ -14,6 +14,7 @@
 
 
 #### WebServerCustomizer 와 ErrorPages로 원하는 error page에 대해 요청을 처리해서 뷰를 표현할 수 있지만 스프링은 기본적으로 BasicErrorController에 포함되어있다.
+
 ### BasicErrorController
 #### @RequestMapping("${server.error.path:${error.path:/error}}") 으로 기본 매핑되어 있어서 편하게 template를 만들어 에러를 표현해줄 수 있다.
 

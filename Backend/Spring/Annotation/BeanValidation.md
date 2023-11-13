@@ -6,3 +6,7 @@
 #### 바인딩에 성공한 필드만 Bean Validation 적용 BeanValidator는 바인딩에 실패한 필드는 BeanValidation을 적용하지 않는다. 실패하면 FieldError 추가한다.
 
 #### ObjectError는 `@ScriptAssert()` 를 사용해서 검증하면된다.
+
+#### 동일한 모델 객체가 존재할 때 각각 다른 방식으로 검증을 해야한다면 groups를 사용하면 된다. 
+
+#### 하지만 groups를 쓰면 복잡도가 올라가기때문에 다른 검증 방식에 필요한 데이터를 직접 만들어서 사용하도록 데이터 클래스를 분리하는 것이 좋다. 
